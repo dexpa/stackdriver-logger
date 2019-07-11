@@ -1,8 +1,7 @@
 # Stackdriver logger
 
 A logger for Google's Stackdriver.\
-In debug mode, we fall back back to [pretty-env-logger](https://github.com/seanmonstar/pretty-env-logger).\
-In release mode, we output JSON formatted logs compatible with Stackdriver.
+We output JSON formatted logs compatible with Stackdriver.
 
 ## Usage
 ```rust
